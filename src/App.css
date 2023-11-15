@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(255, 255, 255);   
-    color: black;
+    background-color: black;   
+    color: rgb(255, 255, 255);
     height: 100vh;
 }
 .border{
@@ -8,6 +8,8 @@ body{
 }
 
 .flexed{
+    background-color: white;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +33,7 @@ body{
     transform: translateX(-50%);
     width: 80px;
     height: 3px; /* Adjusted height to make it thinner */
-    background-color: #333;
+    background-color: black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
